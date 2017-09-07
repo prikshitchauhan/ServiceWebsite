@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <title>AngelBooking Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<style>
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<style>
+body{
+    background-color: #f44336;
+    
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #f44336;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:#c10707;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 600px;
+}
+</style>
+</head>
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card-2 w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="main.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
+    <a href="services.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white">Services</a>
+    <a href="price.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Price</a>
+    <a href="business.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">For Business</a>
+    <a href="jobs.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Jobs</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="services.html" class="w3-bar-item w3-button w3-padding-large">Services</a>
+    <a href="price.html" class="w3-bar-item w3-button w3-padding-large">Price</a>
+    <a href="business.html" class="w3-bar-item w3-button w3-padding-large">For Business</a>
+    <a href="jobs.html" class="w3-bar-item w3-button w3-padding-large">Jobs</a>
+    
+  </div>
+</div>
+<center>
+<p style="padding: 10px;"><h2 style="color:#fff;">Contact Us</h2>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+    <label for="lname">E-Mail</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your E-Mail">
+
+    <label for="lname">Contact Number</label>
+    <input type="text" id="lname" name="lastname" placeholder="0125465412">
+
+
+    <label for="subject">Your Message</label>
+    <textarea id="subject" name="subject" placeholder="Please type your message here....." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit" href="prikshitchauhan2@gmail.com">
+  </form></center></p>
+</div>
+
+</body>
+</html>
